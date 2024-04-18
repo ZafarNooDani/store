@@ -1,0 +1,75 @@
+{% extends 'customer/base.html' %}
+{% load static %}
+{% block content %}
+<div>
+
+
+    <style>
+        body {
+            background-image: url('/static/customer/images/bg.jpg');
+            background-repeat: no-repeat;
+            color: white;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+
+    <div class="container mb-5">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8 col-sm-12 offset-md-1 p-4 text-center text-success">
+                <div class="row justify-content-center mt-5">
+                    <h1 style="font-size: 60px"><b>Shoe Planet </b> </h1>
+                         <h2> OF BRANDED SHOES</h2>
+                    <center><img src="{% static 'customer/images/sp-logo.png' %}" alt="what image shows" height="300"
+                            width="300">
+                    </center>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8 col-sm-12 offset-md-1 p-4 text-center text-secondary">
+
+                <h2>About Us!</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-1">
+            <div class="col-md-10 col-sm-12 offset-md-1 p-4 text-center text-secondary">
+                <p>
+                <h5>Established since 1995, family owned, located in downtown Lahore,</h5>
+                </p>
+                <div>
+                    <p>
+                    <h5>Great place to visit for all Occasions!!</h5>
+                    </p>
+                </div>
+                <div>
+                    <div>
+                        <p>
+
+                        <h5>- 10:00 pm Monday to Friday</h5>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                        <h4>M.M. Alam Road, Lahore Punjab, Pakistan.</h4>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center mt-5">
+                        <div class="row justify-content-center mt-5">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.2646439936916!2d74.34945707609847!3d31.516890647313044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190456cec001c7%3A0x9d52a7093c378195!2sMM%20Alam%20Rd%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1709145792184!5m2!1sen!2s" 
+                             width="400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <!-- <center><img src="{% static 'customer/images/location.jpg' %}" alt="what image shows"
+                                height="400" width="400">
+                        </center> -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock content %}
